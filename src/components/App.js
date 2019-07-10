@@ -4,7 +4,7 @@ import HomePage from "./home/HomePage";
 import AboutPage from "./about/AboutPage";
 import Header from "./common/Header";
 import PageNotFound from "./PageNotFound";
-import AddUpliftmentPage from "./addUpliftment/AddUpliftmentPage";
+import UpliftmentsPage from "./upliftments/UpliftmentsPage";
 
 const App = () => (
   <div className="container-fluid">
@@ -12,7 +12,7 @@ const App = () => (
     <Switch>
       <Route exact path="/" component={HomePage} />
       <Route path="/about" component={AboutPage} />
-      <Route path="/add-upliftment" component={AddUpliftmentPage} />
+      <Route path="/upliftments" component={UpliftmentsPage} />
       <Route component={PageNotFound} />
     </Switch>
   </div>
